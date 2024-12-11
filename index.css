@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(55deg , black , rgb(66, 65, 65));
+}
+
+.calc{
+    border: 2px solid lightslategrey;
+    border-radius: 16px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    text-align: right;
+    font-size: 20px;
+    box-shadow: -3px 3px 6px;
+    cursor:not-allowed;
+    color: azure;
+}
+
+input::placeholder{
+    color: azure;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: -3px -3px 5px rgba(114, 107, 107, 0.3);
+    color: azure;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#eq{
+    background-color: orangered;
+}
+
+.gn{
+    color: green;
+    font-weight: bolder;
+}
